@@ -8,7 +8,7 @@
   },
   "bin": "cli.js",
   "dependencies": {
-    "dns-packet": "^4.0.0",
+    "dns-packet": "olehs/dns-packet",
     "thunky": "^1.0.2"
   },
   "devDependencies": {
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/multicast-dns.git"
+    "url": "https://github.com/olehs/multicast-dns.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/multicast-dns/issues"
+    "url": "https://github.com/olehs/multicast-dns/issues"
   },
-  "homepage": "https://github.com/mafintosh/multicast-dns",
+  "homepage": "https://github.com/olehs/multicast-dns",
   "keywords": [
     "multicast",
     "dns",

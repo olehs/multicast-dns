@@ -85,7 +85,7 @@ module.exports = function (opts) {
       if (destroyed) return cb()
       if (err) return cb(err)
       var message = packet.encode(value)
-      socket.send(message, 0, message.length, rinfo.port, rinfo.address || rinfo.host, cb)
+      socket.send(message, 0, packet.encode.bytes, rinfo.port, rinfo.address || rinfo.host, cb)
     }
   }
 
